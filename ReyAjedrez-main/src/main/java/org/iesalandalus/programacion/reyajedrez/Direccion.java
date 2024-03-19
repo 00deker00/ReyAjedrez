@@ -21,6 +21,6 @@ public enum Direccion {
 
     @Override
     public String toString() {
-        return super.toString();
+        return cadenaAMostrar;
     }
 }

@@ -7,4 +7,13 @@ public enum Color {
 
     Private final String cadenaAMostrar;
 
+    private Color (String cadenaAMostrar){
+        this.cadenaAMostrar = cadenaAMostrar;
+    }
+
+
+    @Override
+    public String toString() {
+        return cadenaAMostrar;
+    }
 }
