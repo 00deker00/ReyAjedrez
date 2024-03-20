@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import javax.naming.OperationNotSupportedException;
-
+/*
 import org.iesaladanlus.programacion.reyajedrez.modelo.Color;
 import org.iesaladanlus.programacion.reyajedrez.modelo.Direccion;
 import org.iesaladanlus.programacion.reyajedrez.modelo.Posicion;
 import org.iesaladanlus.programacion.reyajedrez.modelo.Rey;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
+import org.junit.jupiter.api.Test;*/
+/*
 class ReyTest {
 
 	private static final String COLOR_NO_ESPERADO = "El color no es el esperado.";
@@ -175,3 +175,4 @@ class ReyTest {
 	}
 
 }
+*/

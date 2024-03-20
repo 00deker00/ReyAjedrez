@@ -7,12 +7,12 @@ public class Posicion {
     private int fila;
     private char columna;
 
-    Public Posicion (int fila, char columna) {
+    public Posicion (int fila, char columna) {
         setFila(fila);
         setColumna(columna);
     }
 
-    Public Posicion(Posicion posicion){
+    public Posicion(Posicion posicion){
         if (posicion == null)
             throw new IllegalArgumentException("ERROR: No es posible copiar una posición nula.");
         setFila(posicion.getFila());
